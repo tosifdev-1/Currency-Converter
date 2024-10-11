@@ -1,0 +1,102 @@
+*{
+padding: 0px;
+margin: 0px;
+font-family: Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    min-height: 150vh;
+    align-items: center;
+    background-color: #f4e4ba;
+
+}
+.container{
+background-color:white;
+padding: 2rem;
+border-radius: 10px;
+width: 250px;
+display: flex;
+min-height: 43vh;
+justify-content: center;
+align-items: center;
+}
+/*adding style for h2 tag*/
+h2{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.dropdowns{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+/*adding styling to drop downs*/
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+    border: 1px solid lightgray;
+    border-radius: 0.50rem;
+    height: 43px;
+
+}
+select{
+   
+    border-radius: 0.75rem;
+    margin-right: 2px;
+    outline: none;
+    border: none;
+}
+/*adding style to the flags*/
+.select-container img{
+    max-width: 3rem;
+}
+
+/*adding style to input box*/
+
+input , button,section{
+    width: 250px;
+    height: 20px;
+    border:none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+
+input{
+    background-color: white;
+    margin-bottom: 20px;
+    height: 2rem;
+    border-radius:4px ;
+    border: 1.5px solid lightgray;
+
+}
+button{
+    margin-top: px;
+    border-radius:4px ;
+    height:2rem;
+    background-color: #189ab4;
+    color:white;
+    font-size: 1rem;
+    margin: 15px 0 15px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.msg{
+    margin: 9px 0 9px;
+    border-radius: 4px;
+  background-color: lightgray;
+}
+.msg p{
+    font-weight: 150;
+    border: 1.5px solid lightgray;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: 1000;
+}
